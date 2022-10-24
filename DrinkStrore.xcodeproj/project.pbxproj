@@ -7,18 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9D03576329072B9D0088E083 /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D03576229072B9D0088E083 /* Menu.swift */; };
+		9D035765290733700088E083 /* MenuView1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D035764290733700088E083 /* MenuView1.swift */; };
 		9D12EC8E2904D3A00063ACA2 /* DrinkStroreApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D12EC8D2904D3A00063ACA2 /* DrinkStroreApp.swift */; };
 		9D12EC902904D3A00063ACA2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D12EC8F2904D3A00063ACA2 /* ContentView.swift */; };
 		9D12EC922904D3A20063ACA2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9D12EC912904D3A20063ACA2 /* Assets.xcassets */; };
 		9D12EC952904D3A20063ACA2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9D12EC942904D3A20063ACA2 /* Preview Assets.xcassets */; };
+		9D12EC9C2904E9EA0063ACA2 /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D12EC9B2904E9EA0063ACA2 /* MenuView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9D03576229072B9D0088E083 /* Menu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Menu.swift; sourceTree = "<group>"; };
+		9D035764290733700088E083 /* MenuView1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView1.swift; sourceTree = "<group>"; };
 		9D12EC8A2904D3A00063ACA2 /* DrinkStrore.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DrinkStrore.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D12EC8D2904D3A00063ACA2 /* DrinkStroreApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrinkStroreApp.swift; sourceTree = "<group>"; };
 		9D12EC8F2904D3A00063ACA2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		9D12EC912904D3A20063ACA2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9D12EC942904D3A20063ACA2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		9D12EC9B2904E9EA0063ACA2 /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,8 +59,11 @@
 			children = (
 				9D12EC8D2904D3A00063ACA2 /* DrinkStroreApp.swift */,
 				9D12EC8F2904D3A00063ACA2 /* ContentView.swift */,
+				9D03576229072B9D0088E083 /* Menu.swift */,
 				9D12EC912904D3A20063ACA2 /* Assets.xcassets */,
 				9D12EC932904D3A20063ACA2 /* Preview Content */,
+				9D12EC9B2904E9EA0063ACA2 /* MenuView.swift */,
+				9D035764290733700088E083 /* MenuView1.swift */,
 			);
 			path = DrinkStrore;
 			sourceTree = "<group>";
@@ -138,6 +147,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				9D12EC902904D3A00063ACA2 /* ContentView.swift in Sources */,
+				9D12EC9C2904E9EA0063ACA2 /* MenuView.swift in Sources */,
+				9D035765290733700088E083 /* MenuView1.swift in Sources */,
+				9D03576329072B9D0088E083 /* Menu.swift in Sources */,
 				9D12EC8E2904D3A00063ACA2 /* DrinkStroreApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
