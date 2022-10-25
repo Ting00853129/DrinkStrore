@@ -25,10 +25,8 @@ struct MenuView: View {
                     Text("\(drink.name)")
                         .multilineTextAlignment(.leading)
                         .frame(width: 110.0, height: 270.0)
-                    
                 }.frame(width: 290.0, height: 270.0)
             }
-            
         }
     }
 }

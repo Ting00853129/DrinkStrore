@@ -6,9 +6,11 @@
 //
 
 import SwiftUI
+import AVFoundation
 
 struct ContentView: View {
     @State private var opacity: Double = 0
+    @State var looper: AVPlayerLooper?
     var body: some View {
         
         TabView {
@@ -17,7 +19,6 @@ struct ContentView: View {
                         .resizable()
                         .scaledToFit()
                         .opacity(opacity)
-                    
                         .animation(.linear(duration: 3), value: opacity)
                         .onAppear{
                             opacity += 1
@@ -67,17 +68,25 @@ struct ContentView: View {
                         Text("找珍珠")
                     }
                     Section{
-                        CategoryView(view: AnyView(MenuView()), text:"經典奶茶系列")
-                        CategoryView(view: AnyView(MenuView()), text:"茶拿鐵系列")
-                        CategoryView(view: AnyView(MenuView()), text:"醇品鮮茶系列")
+                        CategoryView(view: AnyView(MenuView2()), text:"經典奶茶系列")
+                        CategoryView(view: AnyView(MenuView3()), text:"茶拿鐵系列")
+                        CategoryView(view: AnyView(MenuView4()), text:"醇品鮮茶系列")
                     } header: {
                         Text("找茶")
                     }
                     Section{
-                        CategoryView(view: AnyView(MenuView()), text:"手作鮮果茶系列")
-                        CategoryView(view: AnyView(MenuView()), text:"鮮果汁系列")
+                        CategoryView(view: AnyView(MenuView5()), text:"手作鮮果茶系列")
+                        CategoryView(view: AnyView(MenuView6()), text:"鮮果汁系列")
                     } header: {
                         Text("找果汁")
+                    }
+                    Section{
+                        CategoryView(view: AnyView(MenuView7()), text:"偷偷告訴你我最愛的飲料")
+                    } header: {
+                        HStack {
+                            Image(systemName: "heart.fill")
+                            Text("我的最愛")
+                        }
                     }
                 }
                 .navigationTitle("MENU")
@@ -86,6 +95,14 @@ struct ContentView: View {
                 Label("MENU", systemImage: "menucard")
             }
         }
+            .onAppear {
+
+            let player = AVQueuePlayer()
+            let fileUrl = Bundle.main.url(forResource: "Drinkstore", withExtension: "mp3")!
+            let item = AVPlayerItem(url: fileUrl)
+            self.looper = AVPlayerLooper(player: player, templateItem: item)
+            player.play()
+    }
         
     }
 }
@@ -108,3 +125,5 @@ struct CategoryView: View {
         }
     }
 }
+
+

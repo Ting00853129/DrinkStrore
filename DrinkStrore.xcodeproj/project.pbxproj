@@ -9,6 +9,14 @@
 /* Begin PBXBuildFile section */
 		9D03576329072B9D0088E083 /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D03576229072B9D0088E083 /* Menu.swift */; };
 		9D035765290733700088E083 /* MenuView1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D035764290733700088E083 /* MenuView1.swift */; };
+		9D03576729075E5A0088E083 /* MenuView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D03576629075E5A0088E083 /* MenuView2.swift */; };
+		9D035769290760F30088E083 /* MenuView3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D035768290760F30088E083 /* MenuView3.swift */; };
+		9D03576B290761020088E083 /* MenuView4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D03576A290761020088E083 /* MenuView4.swift */; };
+		9D03576D290763300088E083 /* MenuView5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D03576C290763300088E083 /* MenuView5.swift */; };
+		9D03576F290763430088E083 /* MenuView6.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D03576E290763430088E083 /* MenuView6.swift */; };
+		9D035771290768D10088E083 /* MenuView7.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D035770290768D10088E083 /* MenuView7.swift */; };
+		9D03577429076B040088E083 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D03577329076B040088E083 /* AppDelegate.swift */; };
+		9D03577629076C8E0088E083 /* Drinkstore.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9D03577529076C8E0088E083 /* Drinkstore.mp3 */; };
 		9D12EC8E2904D3A00063ACA2 /* DrinkStroreApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D12EC8D2904D3A00063ACA2 /* DrinkStroreApp.swift */; };
 		9D12EC902904D3A00063ACA2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D12EC8F2904D3A00063ACA2 /* ContentView.swift */; };
 		9D12EC922904D3A20063ACA2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9D12EC912904D3A20063ACA2 /* Assets.xcassets */; };
@@ -19,6 +27,15 @@
 /* Begin PBXFileReference section */
 		9D03576229072B9D0088E083 /* Menu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Menu.swift; sourceTree = "<group>"; };
 		9D035764290733700088E083 /* MenuView1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView1.swift; sourceTree = "<group>"; };
+		9D03576629075E5A0088E083 /* MenuView2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView2.swift; sourceTree = "<group>"; };
+		9D035768290760F30088E083 /* MenuView3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView3.swift; sourceTree = "<group>"; };
+		9D03576A290761020088E083 /* MenuView4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView4.swift; sourceTree = "<group>"; };
+		9D03576C290763300088E083 /* MenuView5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView5.swift; sourceTree = "<group>"; };
+		9D03576E290763430088E083 /* MenuView6.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView6.swift; sourceTree = "<group>"; };
+		9D035770290768D10088E083 /* MenuView7.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView7.swift; sourceTree = "<group>"; };
+		9D03577229076AC80088E083 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		9D03577329076B040088E083 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9D03577529076C8E0088E083 /* Drinkstore.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Drinkstore.mp3; sourceTree = "<group>"; };
 		9D12EC8A2904D3A00063ACA2 /* DrinkStrore.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DrinkStrore.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D12EC8D2904D3A00063ACA2 /* DrinkStroreApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrinkStroreApp.swift; sourceTree = "<group>"; };
 		9D12EC8F2904D3A00063ACA2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -41,6 +58,7 @@
 		9D12EC812904D39F0063ACA2 = {
 			isa = PBXGroup;
 			children = (
+				9D03577329076B040088E083 /* AppDelegate.swift */,
 				9D12EC8C2904D3A00063ACA2 /* DrinkStrore */,
 				9D12EC8B2904D3A00063ACA2 /* Products */,
 			);
@@ -57,8 +75,16 @@
 		9D12EC8C2904D3A00063ACA2 /* DrinkStrore */ = {
 			isa = PBXGroup;
 			children = (
+				9D03577229076AC80088E083 /* Info.plist */,
+				9D03577529076C8E0088E083 /* Drinkstore.mp3 */,
 				9D12EC8D2904D3A00063ACA2 /* DrinkStroreApp.swift */,
 				9D12EC8F2904D3A00063ACA2 /* ContentView.swift */,
+				9D035770290768D10088E083 /* MenuView7.swift */,
+				9D035768290760F30088E083 /* MenuView3.swift */,
+				9D03576A290761020088E083 /* MenuView4.swift */,
+				9D03576C290763300088E083 /* MenuView5.swift */,
+				9D03576E290763430088E083 /* MenuView6.swift */,
+				9D03576629075E5A0088E083 /* MenuView2.swift */,
 				9D03576229072B9D0088E083 /* Menu.swift */,
 				9D12EC912904D3A20063ACA2 /* Assets.xcassets */,
 				9D12EC932904D3A20063ACA2 /* Preview Content */,
@@ -134,6 +160,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9D03577629076C8E0088E083 /* Drinkstore.mp3 in Resources */,
 				9D12EC952904D3A20063ACA2 /* Preview Assets.xcassets in Resources */,
 				9D12EC922904D3A20063ACA2 /* Assets.xcassets in Resources */,
 			);
@@ -146,11 +173,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9D03577429076B040088E083 /* AppDelegate.swift in Sources */,
+				9D03576D290763300088E083 /* MenuView5.swift in Sources */,
 				9D12EC902904D3A00063ACA2 /* ContentView.swift in Sources */,
 				9D12EC9C2904E9EA0063ACA2 /* MenuView.swift in Sources */,
 				9D035765290733700088E083 /* MenuView1.swift in Sources */,
+				9D03576F290763430088E083 /* MenuView6.swift in Sources */,
 				9D03576329072B9D0088E083 /* Menu.swift in Sources */,
+				9D03576729075E5A0088E083 /* MenuView2.swift in Sources */,
+				9D035771290768D10088E083 /* MenuView7.swift in Sources */,
 				9D12EC8E2904D3A00063ACA2 /* DrinkStroreApp.swift in Sources */,
+				9D03576B290761020088E083 /* MenuView4.swift in Sources */,
+				9D035769290760F30088E083 /* MenuView3.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,6 +315,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"DrinkStrore/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DrinkStrore/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -309,6 +344,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"DrinkStrore/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DrinkStrore/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
