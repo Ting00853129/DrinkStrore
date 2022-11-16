@@ -22,6 +22,8 @@
 		9D12EC922904D3A20063ACA2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9D12EC912904D3A20063ACA2 /* Assets.xcassets */; };
 		9D12EC952904D3A20063ACA2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9D12EC942904D3A20063ACA2 /* Preview Assets.xcassets */; };
 		9D12EC9C2904E9EA0063ACA2 /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D12EC9B2904E9EA0063ACA2 /* MenuView.swift */; };
+		9DC8D7E42923822200A52436 /* OrderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DC8D7E32923822200A52436 /* OrderView.swift */; };
+		9DC8D7E6292495A400A52436 /* TotalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DC8D7E5292495A400A52436 /* TotalView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +44,8 @@
 		9D12EC912904D3A20063ACA2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9D12EC942904D3A20063ACA2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		9D12EC9B2904E9EA0063ACA2 /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
+		9DC8D7E32923822200A52436 /* OrderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderView.swift; sourceTree = "<group>"; };
+		9DC8D7E5292495A400A52436 /* TotalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TotalView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +83,8 @@
 				9D03577529076C8E0088E083 /* Drinkstore.mp3 */,
 				9D12EC8D2904D3A00063ACA2 /* DrinkStroreApp.swift */,
 				9D12EC8F2904D3A00063ACA2 /* ContentView.swift */,
+				9DC8D7E32923822200A52436 /* OrderView.swift */,
+				9DC8D7E5292495A400A52436 /* TotalView.swift */,
 				9D035770290768D10088E083 /* MenuView7.swift */,
 				9D035768290760F30088E083 /* MenuView3.swift */,
 				9D03576A290761020088E083 /* MenuView4.swift */,
@@ -174,9 +180,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				9D03577429076B040088E083 /* AppDelegate.swift in Sources */,
+				9DC8D7E42923822200A52436 /* OrderView.swift in Sources */,
 				9D03576D290763300088E083 /* MenuView5.swift in Sources */,
 				9D12EC902904D3A00063ACA2 /* ContentView.swift in Sources */,
 				9D12EC9C2904E9EA0063ACA2 /* MenuView.swift in Sources */,
+				9DC8D7E6292495A400A52436 /* TotalView.swift in Sources */,
 				9D035765290733700088E083 /* MenuView1.swift in Sources */,
 				9D03576F290763430088E083 /* MenuView6.swift in Sources */,
 				9D03576329072B9D0088E083 /* Menu.swift in Sources */,

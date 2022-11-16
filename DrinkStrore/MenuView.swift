@@ -10,7 +10,7 @@ import SwiftUI
 struct MenuView: View {
     let drinks = [
         Menu(img: "楊枝甘露", name: "楊枝甘露"),
-        Menu(img: "葡式芝味果粒", name: "葡式芝味果粒"),
+        Menu(img: "葡式芝味果粒", name: "葡式芝味果粒") ,
         Menu(img: "芝士芒芒果粒", name: "芝士芒芒果粒"),
         Menu(img: "芝士火龍果", name: "芝士火龍果")
     ]
